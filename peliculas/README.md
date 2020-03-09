@@ -31,13 +31,15 @@ Con los siguientes comandos puedes descargar las dependencias y ejecutar las pru
 * Ejecutar pruebas: `mvn test`
 
 Nota:
+
+La Api escucha en el puerto 8081.
+
 El reporte de cobertura de codigo se genera en la ruta /target/site/jacoco/index.html
 
 
 ## Documentacion peliculas
 
-  La Api escucha en el puerto 8081.
-  
+   
   Api Documentation al iniciar se encuentra en `http://localhost:8081/swagger-ui.html#/` 
   
 
