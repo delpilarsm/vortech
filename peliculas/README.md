@@ -7,7 +7,7 @@
 
 * GET
 getPeliculas  `/peliculas/all`
-getPeliculaByTitulo  `/peliculas/detalle?titulo?Alicia`
+getPeliculaByTitulo  `/peliculas/detalle?titulo=Alicia`
 
 
 ## Restaurar base de datos
@@ -35,6 +35,9 @@ El reporte de cobertura de codigo se genera en la ruta /target/site/jacoco/index
 
 
 ## Documentacion peliculas
+
   La Api escucha en el puerto 8081.
+  
   Api Documentation al iniciar se encuentra en `http://localhost:8081/swagger-ui.html#/` 
+  
 
