@@ -1,6 +1,6 @@
 # API Peliculas - Vortech
 
-`peliculas` Esta API expone tres endpoints para guardar peliculas y consultarlas  o por detalle del titulo de pelicula.
+`peliculas` Esta API expone tres endpoints para consulta de todas las peliculas o por titulo y guardar en base dedatos de peliculas.
 * POST
  savePelicula  `/peliculas/add`
  {"titulo":"El principito","genero":"Infantil 10","anio":610,"oscar":2}
