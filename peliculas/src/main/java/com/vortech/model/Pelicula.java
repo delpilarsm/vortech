@@ -46,11 +46,7 @@ public class Pelicula  implements Serializable {
 	public void setActores(List<String> actores) {
 		this.actores = actores;
 	}
-	@Override
-	public String toString() {
-		return "Pelicula [titulo=" + titulo + ", genero=" + genero + ", anio=" + anio + ", oscar=" + oscar + ", actores="
-				+ actores + "]";
-	}
+	
 	
 
 }
