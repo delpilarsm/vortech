@@ -14,8 +14,7 @@ public class Pelicula  implements Serializable {
 	private String genero;
 	private int anio;
 	private int oscar;
-	private List<String> actores;
-	
+		
 	public String getTitulo() {
 		return titulo;
 	}
@@ -40,13 +39,6 @@ public class Pelicula  implements Serializable {
 	public void setOscar(int oscar) {
 		this.oscar = oscar;
 	}
-	public List<String> getActores() {
-		return actores;
-	}
-	public void setActores(List<String> actores) {
-		this.actores = actores;
-	}
-	
-	
+
 
 }
