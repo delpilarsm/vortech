@@ -38,7 +38,7 @@ public class PeliculasControllerTest {
 				.content("{\"titulo\":\"Date perfect\",\"genero\":\"Romantica\",\"anio\":10,\"oscar\":2}")
 				.accept(MediaType.APPLICATION_JSON))
 				.andExpect(content().json(
-						"{\"titulo\":\"Date perfect\",\"genero\":\"Romantica\",\"anio\":10,\"oscar\":2,\"actores\":null}"))
+						"{\"titulo\":\"Date perfect\",\"genero\":\"Romantica\",\"anio\":10,\"oscar\":2}"))
 				.andDo(print());
 	}
 
